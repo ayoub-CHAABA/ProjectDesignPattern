@@ -1,0 +1,27 @@
+@startuml
+class aa_test.Main
+class app.AbstractApp
+class app.ProxyApp
+class java.util.ArrayList
+class java.util.Arrays
+class java.util.List
+class java.util.Scanner
+class java.util.logging.Level
+class java.util.logging.Logger
+class sensor.Sensor
+class service.AbstractService
+class service.CompositeService
+class user.User
+aa_test.Main ..> app.AbstractApp
+aa_test.Main ..> app.ProxyApp
+aa_test.Main ..> java.util.ArrayList
+aa_test.Main ..> java.util.Arrays
+aa_test.Main ..> java.util.List
+aa_test.Main ..> java.util.Scanner
+aa_test.Main ..> java.util.logging.Level
+aa_test.Main ..> java.util.logging.Logger
+aa_test.Main ..> sensor.Sensor
+aa_test.Main ..> service.AbstractService
+aa_test.Main ..> service.CompositeService
+aa_test.Main ..> user.User
+@enduml
